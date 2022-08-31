@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .button-cor{
+        margin-left: 470px !important;
+    }   
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .button-cor{
+        margin-left: 450px !important;
+    }   
+    /* bannar menu start */
+    .bannar-menu ul li{
+        margin:  25px 3px 10px 3px;
+        padding: 5px 15px 7px 15px;
+        border-radius: 18px;
+      }
+    /* bannar menu end */
+    /* LIMITED TIME Local Bank  section start */
+    .limite-time p{
+        font-size: 18px;
+      }
+      .limite-end p{
+        font-size: 15px;
+      
+      }
+    /* LIMITED TIME Local Bank  section end */
+    
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.button-cor{
+    margin-left: 600px !important;
+}   
+/* bannar menu start */
+.bannar-menu ul li{
+    margin:  25px 10px 10px 9px;
+    padding: 5px 20px 7px 20px;
+    border-radius: 18px;
+  }
+/* bannar menu end */
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+.button-cor{
+     margin-left: 800px !important;
+}
+      /* 
+/* bannar menu start */
+.bannar-menu ul li{
+    margin:  25px 20px 10px 20px;
+    padding: 5px 27px 7px 27px;
+    border-radius: 30px;
+  }
+  .bannar-menu ul li a{
+    font-size: 16px;
+  }
+/* bannar menu end */
+
+
+
+}
+

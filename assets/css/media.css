@@ -1,0 +1,146 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .more-filter-all ul li{
+        padding: 0  14px;
+    }
+    .more-filter-all ul li input{
+        margin: 20px 0px 25px 0;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+      }
+      .more-filter-all ul li label{
+        /* padding-left: 10px; */
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .search-text{
+        margin-top: 15px;
+      }
+      .search-text span{
+        color: #000;
+        font-size: 13px;
+        font-weight: 400;
+      }
+      .search-text button{
+        padding: 0 10px;
+        color: #000;
+        font-size: 10px;
+        font-weight: 400;
+        border-bottom: 2px solid transparent;
+      }
+      .search-text button:hover{
+        padding-bottom: 10px;
+        color: #FFD394;
+        border-bottom: 2px solid #FFD394;
+        transition: .5px;
+      }
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* filter */
+.more-filter-all ul li{
+    padding: 0  8px;
+}
+.more-filter-all ul li input{
+    margin: 20px 0px 25px 0;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+  }
+  .more-filter-all ul li label{
+    /* padding-left: 10px; */
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .search-text{
+    margin-top: 15px;
+  }
+  .search-text span{
+      color: #000;
+      font-size: 13px;
+      font-weight: 400;
+  }
+  .search-text button{
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+  }
+  .search-text button:hover{
+    padding-bottom: 10px;
+    color: #FFD394;
+    border-bottom: 2px solid #FFD394;
+    transition: .5px;
+  }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.player{
+    margin-top: 20px;
+    width: 110%;
+    height: 158px;
+}
+.seq p{
+    margin: 5px 0;
+    padding: 0px 15px;
+    }
+.seq a{
+    margin-left: 15px;
+    padding: 5px 15px;
+    font-size: 13px;
+    }
+/* filter */
+.more-filter-all ul li{
+    padding: 0  10px;
+}
+.more-filter-all ul li input{
+    margin: 20px 0px 25px 0;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  .more-filter-all ul li label{
+    /* padding-left: 10px; */
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.player{
+    margin-top: 20px;
+    width: 110%;
+    height: 218px;
+  
+    }
+.seq p{
+    margin: 5px 0;
+    padding: 0px 20px;
+    }
+.seq a{
+    margin-left: 20px;
+    padding: 5px 20px;
+    }
+
+
+
+}
